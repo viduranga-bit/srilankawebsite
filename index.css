@@ -1,0 +1,139 @@
+body{
+
+    padding: 0%;
+    margin: 0%;
+  
+}
+nav {
+ 
+    height: 70px;
+    background-color:rgba(32, 31, 31, 0.527);
+  }
+  #logo {
+    float: left;
+
+  }
+
+
+  nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+    font-size: 17px;
+    margin-top: 0%;
+    line-height: 70px;
+   
+  }
+  nav ul li a {
+    text-decoration: none;
+    color:white;
+    margin: 7PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+   
+    
+  }
+  .banner{
+      overflow: hidden;
+      position: relative;
+      background: url("./img/3.jpg") no-repeat center;
+      background-size: cover;
+      width: 100%;
+      height: 80vh;
+  }
+  .banner-content{
+     color: white;
+     padding-top: 170px;
+     width: 55%;
+     padding-left: 100px;
+
+  }
+  .banner-content span{
+      font-size: 58px;
+      font-weight: 500;
+      letter-spacing: 3px;
+
+  }
+  .banner-content h1{
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+.banner-content p{
+ font-style: italic;
+ padding-bottom: 30px;
+
+}
+.banner-content a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.banner-content .btn{
+    padding: 10px 30px;
+    background-color: rgba(105, 102, 102, 0.527);
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-weight: 600;
+    font-style: italic;
+    color: #fff;
+    transition: 0.3s all;
+
+}
+.about{
+
+    text-align: center;
+    margin-top: 60px;
+}
+.para{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(53, 53, 58);
+    line-height: 35px;
+}
+.cards{
+
+    background-color: rgb(219, 219, 219);
+   
+  }
+  .wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   margin-left: 200px;
+   margin-right: 200px;
+  }
+  .coloumn{
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.171);
+  
+  }
+  .text{
+     padding: 25px;
+     padding-top: 2px;
+     
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .text h3{
+    text-align: center;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .darkgray{
+  
+    background-color: rgba(130, 134, 138, 0.473);
+    height: 220px;
+    margin-bottom: 50px;
+  
+  
+  }
