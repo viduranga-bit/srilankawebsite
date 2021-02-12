@@ -19,6 +19,8 @@ nav {
     list-style: none;
     text-align: center;
     margin-top: 0;
+    padding-left: 0;
+    padding-right: 130px;
   }
   nav ul li {
     display: inline-block;
